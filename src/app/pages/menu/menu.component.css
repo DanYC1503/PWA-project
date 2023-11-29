@@ -1,0 +1,48 @@
+/* Existing CSS */
+.navbar {
+  overflow: hidden;
+  background-color: #d6eaf7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+li {
+  float: left;
+  padding: 14px 16px;
+}
+
+/* Updated CSS with outline for tabs */
+li a {
+  display: block;
+  color: rgb(71, 67, 67);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  outline: 4px solid #7faac7; /* Add an outline to the tabs */
+}
+
+li a:hover {
+  background-color: #7faac7;
+  color: white; /* Change text color on hover for better visibility */
+}
+
+img {
+  display: block;
+  float: left;
+  margin: 10px;
+}
+
+.icon {
+  display: block;
+  float: right;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}

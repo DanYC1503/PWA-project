@@ -1,0 +1,10 @@
+<p>Haz clic en una nota para Editar</p>
+
+<ul>
+    <li *ngFor="let nota of listaNotas | async">
+        <a (click)="goEditar(nota)">Titulo: {{nota.titulo}}
+            |    Descripcion: {{nota.descripcion}}   |
+                 Fecha: {{nota.fecha}} 
+        </a>  
+    </li>
+</ul>

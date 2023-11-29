@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    margin: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+    max-height: 400px; /* Set a maximum height */
+    margin-bottom: 20px;
+  }
+  /* app.component.css */
+
+.project-overview {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    margin: 20px;
+    width: 60%; /* Limiting the text width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li strong {
+    color: #007bff;
+    display: block; /* Ensures each subtitle is on a new line */
+  }
+  
+  .features-section ul,
+  .responsive-section ul,
+  .pwa-section ul,
+  .deployment-section ul,
+  .demo-section ul {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .text-center {
+    display: block;
+    text-align: center;
+  }

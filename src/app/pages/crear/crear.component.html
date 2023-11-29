@@ -1,0 +1,16 @@
+
+<div>
+    <h2>Crear Nota</h2>
+    <form >
+      <label for="titulo">Titulo</label>
+      <input type="text" id="titulo" name="titulo" placeholder="Ingrese un titulo" [(ngModel)]="nota.titulo" required>
+  
+      <label for="descripcion">Descripcion</label>
+      <input type="text" id="descripcion" name="descripcion" placeholder="Descripcion de su nota" [(ngModel)]="nota.descripcion" required>
+        
+      <label for="fecha">Fecha</label>
+      <input type="text" id="fecha" name="fecha" placeholder="Fecha" [(ngModel)]="nota.fecha" required>
+
+      <button (click)="saveNota()">Crear Nota</button>
+    </form>
+  </div>

@@ -1,0 +1,9 @@
+<div class="navbar">
+  <img src="assets/logo.png" alt="Logo">
+  <ul>
+    <li *ngFor="let link of paginas">
+      <a href="#" [routerLink]="link.path">{{link.titulo}}</a>
+    </li>
+  </ul>
+  <img src="assets/icon.png" routerLink="pages/users" alt="icono" class="icon">
+</div>

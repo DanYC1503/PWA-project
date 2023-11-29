@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: background-color 0.3s; /* Add transition for a smooth effect */
+  }
+  
+  li:hover {
+    background-color: rgb(230, 173, 173); /* Set the desired background color on hover */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: #1a1a1a;
+  }
+  p {
+    color: #333; /* Text color */
+    text-align: center; /* Center align the text */
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add top margin for better appearance */
+  }
+  

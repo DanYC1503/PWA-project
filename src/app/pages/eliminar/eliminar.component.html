@@ -1,0 +1,13 @@
+<!-- eliminar.component.html -->
+<p>Selecciona una nota para eliminar</p>
+
+<ul>
+  <li *ngFor="let nota of listaNotas | async">
+    <a (click)="eliminar(nota)">Titulo: {{nota.titulo}}
+      | Descripcion: {{nota.descripcion}}
+      | Fecha: {{nota.fecha}}
+    </a>
+  </li>
+</ul>
+
+<button type="button" (click)="borrar()">Borrar</button>
