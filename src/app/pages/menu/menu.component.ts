@@ -19,12 +19,12 @@ export class MenuComponent {
   }
 
   private updatePaginas(signInState: number): void {
-    if (signInState === 1) {
+    if (signInState === 0) {
       this.paginas = [
         { titulo: 'Home', path: 'pages/home' },
         // Add other items as needed
       ];
-    } else if (signInState === 0) {
+    } else if (signInState === 1) {
       this.paginas = [
         { titulo: 'Home', path: 'pages/home' },
         { titulo: 'Crear', path: 'pages/crear' },
