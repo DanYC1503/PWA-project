@@ -52,16 +52,32 @@ img {
 /* Media query for mobile devices */
 @media screen and (max-width: 767px) {
   .navbar {
-    /* Add your mobile styles here */
-    background-color: #4CAF50; /* Green background for mobile */
+    overflow: hidden;
+    background-color: rgb(85, 201, 149);
   }
 
   li a {
-    /* Modify styles for mobile */
-    outline: none; /* Remove outline for mobile */
+    display: block;
+    color: rgb(71, 67, 67);
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 10px;
+    outline: 2px solid #7faac7; /* Add an outline to the tabs */
   }
+  
 
   li a:hover {
-    background-color: #45a049; /* Darker Green on Hover for mobile */
+    background-color: #7faac7;
+    color: white; /* Change text color on hover for better visibility */
+  }
+  img {
+    margin: 6px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    float: right;
   }
 }
