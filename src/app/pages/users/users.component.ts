@@ -47,6 +47,8 @@ export class UsersComponent {
   }
 
   changeTabs(){
+    this.router.navigate(['pages/home'])
     this.signInService.setSignInState(1)
+    
   }
 }
