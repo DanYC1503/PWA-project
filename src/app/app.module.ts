@@ -35,7 +35,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AngularFirestoreModule,
+    AngularFirestoreModule.enablePersistence(),
     provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
     provideFirestore(() => getFirestore()),
     ServiceWorkerModule.register('ngsw-worker.js', {
