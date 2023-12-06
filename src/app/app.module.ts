@@ -17,6 +17,7 @@ import { EditarComponent } from './pages/editar/editar.component';
 import { EliminarComponent } from './pages/eliminar/eliminar.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { getDatabase, provideDatabase } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { getDatabase, provideDatabase } from '@angular/fire/database';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    AngularFirestoreModule,
     provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
     provideFirestore(() => getFirestore()),
     ServiceWorkerModule.register('ngsw-worker.js', {
