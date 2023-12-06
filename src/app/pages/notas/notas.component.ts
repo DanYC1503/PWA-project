@@ -11,7 +11,9 @@ export class NotasComponent {
   listaNotas: any
 
   constructor(private router: Router, private notasFirebaseService: NotasFirebaseService){
+
     this.listaNotas = this.notasFirebaseService.getAll()
+    
   }
 
   goEditar(nota: any){
