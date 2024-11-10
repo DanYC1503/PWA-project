@@ -89,7 +89,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
     
 <div style="text-align: center;">
   <h2>Desenfoque simple<h2>
-  <img src="https://drive.google.com/file/d/1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb/view?usp=drive_link" width="600"/>
+  <img src="https://drive.google.com/file/d/1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb" width="600"/>
 </div>
 
 
