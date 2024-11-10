@@ -35,6 +35,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 **Modo 2**: Aplica la equalización de histograma sobre la imagen en escala de grises para mejorar el contraste, destacando detalles en áreas subexpuestas o sobreexpuestas. 
 
 <div style="text-align: center;">
+  <h2>Original<h2>
   <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
@@ -46,6 +47,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 **Modo 3**: Mejora el contraste localmente con el filtro CLAHE, que es una versión avanzada de la equalización de histograma, ideal para imágenes con variaciones de iluminación.  
 
 <div style="text-align: center;">
+  <h2>Original<h2>
   <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
@@ -57,6 +59,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 **Modo 4**: Aplica un filtro homomórfico para ajustar el brillo y mejorar los detalles en regiones de sombras o luces intensas, proporcionando una imagen más uniforme.  
 
 <div style="text-align: center;">
+  <h2>Original<h2>
   <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
@@ -65,15 +68,26 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 </div>
 
 ## 6. Ruido sal y pimienta y filtros de suavizado:
+
 **Modo 5**: Este modo agrega ruido sal y pimienta a la imagen original, lo que simula interferencias en la imagen y permite evaluar la efectividad de diferentes filtros de suavizado para eliminar dicho ruido. Los filtros de suavizado aplicados son:
 
 - **Filtro de mediana**: Este filtro reemplaza cada píxel de la imagen con la mediana de los píxeles vecinos, lo que permite suavizar la imagen mientras preserva los bordes. Es particularmente útil para eliminar el ruido "sal y pimienta" sin afectar las estructuras lineales de la imagen.
+
+<div style="text-align: center;">
+  <h2>Original<h2>
+  <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
+</div>
 
 <div style="text-align: center;">
   <img src="https://drive.google.com/uc?id=1gFVvnBH9zxThwocgkDVr4N7Q4xF0fMlF" width="600"/>
 </div>
 
 - **Filtro gaussiano**: Aplica un suavizado basado en una distribución gaussiana (o normal), donde los píxeles cercanos al valor central reciben más peso que los píxeles distantes. Esto ayuda a reducir el ruido general de la imagen al difuminar gradualmente los cambios abruptos en los valores de píxeles.
+
+<div style="text-align: center;">
+  <h2>Original<h2>
+  <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
+</div>
 
 <div style="text-align: center;">
   <img src="https://drive.google.com/uc?id=1EVBRd2IYq3nfjF_R9PlvAcEB-lS3qxxt" width="600"/>
@@ -83,6 +97,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 - **Desenfoque simple**: Utiliza un filtro de media para suavizar la imagen. Este filtro promedia los valores de los píxeles dentro de una vecindad definida, proporcionando un suavizado simple, pero efectivo, para reducir el ruido.
 
 <div style="text-align: center;">
+  <h2>Original<h2>
   <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
 </div>
 
