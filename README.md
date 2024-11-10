@@ -12,31 +12,37 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 
 ## 1. Imagen en color original:
 **Modo 0**: Muestra el cuadro de video en su color original sin procesamiento adicional.  
-![Imagen en color original](https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g)
+
+<img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="300"/>
 
 ## 2. Sustracción de fondo:
 **Modo 1**: Utiliza un sustractor de fondo (`bg_subtractor`) para resaltar objetos en movimiento, útil para detectar cambios en la escena y enfocar la atención en elementos relevantes.  
-![Imagen en color original](https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g)
+
+<img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="300"/>
 
 ![Sustracción de fondo](https://drive.google.com/uc?id=1yVXKzvKY_dFCzoDpO6fUaBaJJePCZ2C0)
 
 ## 3. Equalización de histograma:
 **Modo 2**: Aplica la equalización de histograma sobre la imagen en escala de grises para mejorar el contraste, destacando detalles en áreas subexpuestas o sobreexpuestas. 
-![Imagen en color original](https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g)
+
+<img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="300"/>
 
 ![Equalización de histograma](https://drive.google.com/uc?id=1YVQXEbwrRnfMLTONyidT32VI2JS7HXyS)
 
 ## 4. Filtro CLAHE (Contrast Limited Adaptive Histogram Equalization):
 **Modo 3**: Mejora el contraste localmente con el filtro CLAHE, que es una versión avanzada de la equalización de histograma, ideal para imágenes con variaciones de iluminación.  
-![Imagen en color original](https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g)
+
+<img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="300"/>
 
 ![Filtro CLAHE](https://drive.google.com/uc?id=1ssirIox_oDnvf90s-Zg32nB_az1j61Sn)
 
 ## 5. Filtro homomórfico:
 **Modo 4**: Aplica un filtro homomórfico para ajustar el brillo y mejorar los detalles en regiones de sombras o luces intensas, proporcionando una imagen más uniforme.  
-![Imagen en color original](https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g)
+
+<img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="300"/>
 
 ![Filtro homomórfico](https://drive.google.com/uc?id=1jXGKT7C0qDFnSvwx0weohIWQQtkP2t14)
+
 ## 6. Ruido sal y pimienta y filtros de suavizado:
 **Modo 5**: Este modo agrega ruido sal y pimienta a la imagen original, lo que simula interferencias en la imagen y permite evaluar la efectividad de diferentes filtros de suavizado para eliminar dicho ruido. Los filtros de suavizado aplicados son:
 
