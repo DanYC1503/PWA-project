@@ -40,6 +40,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 </div>
 
 <div style="text-align: center;">
+  <h2>Equalización de histograma<h2>
   <img src="https://drive.google.com/uc?id=1YVQXEbwrRnfMLTONyidT32VI2JS7HXyS" width="600"/>
 </div>
 
@@ -52,6 +53,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 </div>
 
 <div style="text-align: center;">
+  <h2>Filtro CLAHE<h2>
   <img src="https://drive.google.com/uc?id=1ssirIox_oDnvf90s-Zg32nB_az1j61Sn" width="600"/>
 </div>
 
@@ -64,6 +66,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 </div>
 
 <div style="text-align: center;">
+  <h2>Filtro homomórfico<h2>
   <img src="https://drive.google.com/uc?id=1jXGKT7C0qDFnSvwx0weohIWQQtkP2t14" width="600"/>
 </div>
 
@@ -71,27 +74,10 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 
 **Modo 5**: Este modo agrega ruido sal y pimienta a la imagen original, lo que simula interferencias en la imagen y permite evaluar la efectividad de diferentes filtros de suavizado para eliminar dicho ruido. Los filtros de suavizado aplicados son:
 
-- **Filtro de mediana**: Este filtro reemplaza cada píxel de la imagen con la mediana de los píxeles vecinos, lo que permite suavizar la imagen mientras preserva los bordes. Es particularmente útil para eliminar el ruido "sal y pimienta" sin afectar las estructuras lineales de la imagen.
+- **Filtro de media**: Este filtro reemplaza cada píxel de la imagen con la mediana de los píxeles vecinos, lo que permite suavizar la imagen mientras preserva los bordes. Es particularmente útil para eliminar el ruido "sal y pimienta" sin afectar las estructuras lineales de la imagen.
 
-<div style="text-align: center;">
-  <h2>Original<h2>
-  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
-</div>
-
-<div style="text-align: center;">
-  <img src="https://drive.google.com/uc?id=1gFVvnBH9zxThwocgkDVr4N7Q4xF0fMlF" width="600"/>
-</div>
 
 - **Filtro gaussiano**: Aplica un suavizado basado en una distribución gaussiana (o normal), donde los píxeles cercanos al valor central reciben más peso que los píxeles distantes. Esto ayuda a reducir el ruido general de la imagen al difuminar gradualmente los cambios abruptos en los valores de píxeles.
-
-<div style="text-align: center;">
-  <h2>Original<h2>
-  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
-</div>
-
-<div style="text-align: center;">
-  <img src="https://drive.google.com/uc?id=1EVBRd2IYq3nfjF_R9PlvAcEB-lS3qxxt" width="600"/>
-</div>
 
 
 - **Desenfoque simple**: Utiliza un filtro de media para suavizar la imagen. Este filtro promedia los valores de los píxeles dentro de una vecindad definida, proporcionando un suavizado simple, pero efectivo, para reducir el ruido.
@@ -100,9 +86,10 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
   <h2>Original<h2>
   <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
-
+    
 <div style="text-align: center;">
-  <img src="https://drive.google.com/uc?id=1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb" width="600"/>
+  <h2>Desenfoque simple<h2>
+  <img src="https://drive.google.com/file/d/1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb/view?usp=drive_link" width="600"/>
 </div>
 
 
@@ -119,6 +106,7 @@ La detección de bordes se utiliza para resaltar las áreas en una imagen donde 
 </div>
 
 <div style="text-align: center;">
+  <h2>Detección de bordes con Media<h2>
   <img src="https://drive.google.com/uc?id=1gFVvnBH9zxThwocgkDVr4N7Q4xF0fMlF" width="600"/>
 </div>
 
@@ -130,6 +118,7 @@ La detección de bordes se utiliza para resaltar las áreas en una imagen donde 
 </div>
 
 <div style="text-align: center;">
+  <h2>Detección de bordes con Gaussiano<h2>
   <img src="https://drive.google.com/uc?id=1EVBRd2IYq3nfjF_R9PlvAcEB-lS3qxxt" width="600"/>
 </div>
 
@@ -141,6 +130,7 @@ La detección de bordes se utiliza para resaltar las áreas en una imagen donde 
 </div>
 
 <div style="text-align: center;">
+  <h2>Detección de bordes con blur<h2>
   <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
 </div>
 
