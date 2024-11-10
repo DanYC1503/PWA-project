@@ -75,7 +75,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 
 <div style="text-align: center;">
   <h2>Original<h2>
-  <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
+  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
 <div style="text-align: center;">
@@ -86,7 +86,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 
 <div style="text-align: center;">
   <h2>Original<h2>
-  <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
+  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
 <div style="text-align: center;">
@@ -98,7 +98,7 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 
 <div style="text-align: center;">
   <h2>Original<h2>
-  <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
+  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
 <div style="text-align: center;">
@@ -114,16 +114,31 @@ La detección de bordes se utiliza para resaltar las áreas en una imagen donde 
 - **Detección de bordes con Media**: Este método utiliza un filtro de media (promedio) para suavizar la imagen y luego aplica un algoritmo de detección de bordes, como el de Canny o Sobel. El filtro de media ayuda a reducir el ruido antes de detectar los bordes.
 
 <div style="text-align: center;">
+  <h2>Original<h2>
+  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
+</div>
+
+<div style="text-align: center;">
   <img src="https://drive.google.com/uc?id=1gFVvnBH9zxThwocgkDVr4N7Q4xF0fMlF" width="600"/>
 </div>
 
 - **Detección de bordes con Gaussiano**: Utiliza un filtro gaussiano antes de aplicar la detección de bordes. Este filtro difumina la imagen suavemente, lo que puede mejorar la precisión de la detección de bordes al eliminar pequeños detalles irrelevantes.
 
 <div style="text-align: center;">
+  <h2>Original<h2>
+  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
+</div>
+
+<div style="text-align: center;">
   <img src="https://drive.google.com/uc?id=1EVBRd2IYq3nfjF_R9PlvAcEB-lS3qxxt" width="600"/>
 </div>
 
 - **Detección de bordes con blur**: En este caso, se utiliza un desenfoque general (blur) de la imagen antes de detectar los bordes. Este enfoque ayuda a reducir los detalles finos en la imagen, enfocándose más en los contornos más prominentes.
+
+<div style="text-align: center;">
+  <h2>Original<h2>
+  <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
+</div>
 
 <div style="text-align: center;">
   <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
