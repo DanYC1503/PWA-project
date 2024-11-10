@@ -83,13 +83,13 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 - **Desenfoque simple**: Utiliza un filtro de media para suavizar la imagen. Este filtro promedia los valores de los píxeles dentro de una vecindad definida, proporcionando un suavizado simple, pero efectivo, para reducir el ruido.
 
 <div style="text-align: center;">
-  <h2>Original<h2>
+  <h2>Original</h2>
   <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
     
 <div style="text-align: center;">
-  <h2>Desenfoque simple<h2>
-  <img src="(https://drive.google.com/file/d/1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb/view?usp=sharing)" width="600"/>
+  <h2>Desenfoque simple</h2>
+  <img src="https://drive.google.com/file/d/1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb" width="600"/>
 </div>
 
 
