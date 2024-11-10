@@ -24,7 +24,10 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
   <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
-![Sustracción de fondo](https://drive.google.com/uc?id=1yVXKzvKY_dFCzoDpO6fUaBaJJePCZ2C0)
+<div style="text-align: center;">
+  <img src="https://drive.google.com/uc?id=1yVXKzvKY_dFCzoDpO6fUaBaJJePCZ2C0" width="600"/>
+</div>
+
 
 ## 3. Equalización de histograma:
 **Modo 2**: Aplica la equalización de histograma sobre la imagen en escala de grises para mejorar el contraste, destacando detalles en áreas subexpuestas o sobreexpuestas. 
@@ -81,7 +84,10 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
   <img src="https://drive.google.com/uc?id=100FWNIRThqivm5FwrXc12lb-H1LzaXjj" width="600"/>
 </div>
 
-![Ruido sal y pimienta y filtros de suavizado](https://drive.google.com/uc?id=1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb)
+<div style="text-align: center;">
+  <img src="https://drive.google.com/uc?id=1N_EHsroRej94aO5tJKlwAXkB4Wn9twzb" width="600"/>
+</div>
+
 
 ## 7. Detección de bordes:
 La detección de bordes se utiliza para resaltar las áreas en una imagen donde ocurren transiciones abruptas en intensidad, lo cual es útil para identificar objetos o estructuras en la imagen. En este modo, se aplican diferentes técnicas de detección de bordes:
