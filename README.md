@@ -21,10 +21,12 @@ La función `video_capture` incluye varios filtros y técnicas de procesamiento 
 **Modo 1**: Utiliza un sustractor de fondo (`bg_subtractor`) para resaltar objetos en movimiento, útil para detectar cambios en la escena y enfocar la atención en elementos relevantes.  
 
 <div style="text-align: center;">
+  <h2>Original<h2>
   <img src="https://drive.google.com/uc?id=1wCqkS6NDyDidoX86t-qcDjv6doypko4g" width="600"/>
 </div>
 
 <div style="text-align: center;">
+  <h2>Sustracción de fondo<h2>
   <img src="https://drive.google.com/uc?id=1yVXKzvKY_dFCzoDpO6fUaBaJJePCZ2C0" width="600"/>
 </div>
 
